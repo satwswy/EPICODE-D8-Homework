@@ -14,3 +14,6 @@ let exercise2 = {
 console.log(exercise2)
 
 //Exercise 3
+
+exercise2.hasDrivingLicense = true
+console.log(exercise2)
