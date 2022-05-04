@@ -35,3 +35,17 @@ let hasTheSameEmail = exercise2.email === exercise5.email
 //console.log("\n-------Do They Have The Same Email?----------\n")
 //console.log(hasTheSameEmail)
 
+//Exercise 6
+
+let totalShoppingCart = 20;
+let shippingCostZero = 0;
+let shippingCostTen = 10;
+let totalUsersCost
+
+if (totalShoppingCart >= 50) { totalUsersCost = totalShoppingCart + shippingCostZero
+    }
+else {
+    totalUsersCost = totalShoppingCart + shippingCostTen
+}    
+//console.log("\n--------THIS IS THE USERS TOTAL COST-----------\n")
+//console.log(totalUsersCost)
