@@ -22,3 +22,16 @@ exercise2.hasDrivingLicense = true
 
 delete exercise2.age 
 //console.log(exercise2)
+
+//Exercise 5
+
+let exercise5 = {
+    name : 'anothername',
+    surname : 'anothersurname',
+    email : 'anotheremail',
+}
+let hasTheSameEmail = exercise2.email === exercise5.email
+//console.log(exercise5)
+//console.log("\n-------Do They Have The Same Email?----------\n")
+//console.log(hasTheSameEmail)
+
