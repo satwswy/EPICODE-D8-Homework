@@ -42,7 +42,7 @@ let shippingCostZero = 0;
 let shippingCostTen = 10;
 let totalUsersCost
 
-if (totalShoppingCart >= 50) { totalUsersCost = totalShoppingCart + shippingCostZero
+/*if (totalShoppingCart >= 50) { totalUsersCost = totalShoppingCart + shippingCostZero
     }
 else if (totalShoppingCart >=0 && totalShoppingCart <=50) {
     totalUsersCost = totalShoppingCart + shippingCostTen
@@ -50,6 +50,29 @@ else if (totalShoppingCart >=0 && totalShoppingCart <=50) {
 else {
     totalUsersCost = "Please insert valid number"
 }
+*/
 //console.log("\n--------THIS IS THE USERS TOTAL COST-----------\n")
 //console.log(totalUsersCost)
 
+//Exercise 7
+
+let totalShoppingCartDiscount = totalShoppingCart * 0.2 + totalShoppingCart
+//console.log(totalShoppingCartDiscount)
+let isBlackFriday = false
+
+if (totalShoppingCartDiscount >= 50 && isBlackFriday === true) { totalUsersCost = totalShoppingCartDiscount + shippingCostZero
+}
+else if (totalShoppingCartDiscount >=0 && totalShoppingCartDiscount <=50 && isBlackFriday === true) {
+    totalUsersCost = totalShoppingCartDiscount + shippingCostTen
+}    
+
+else if (totalShoppingCart >= 50 && isBlackFriday === false) { totalUsersCost = totalShoppingCart + shippingCostZero
+}
+else if (totalShoppingCart >=0 && totalShoppingCart <=50 && isBlackFriday === false) {
+totalUsersCost = totalShoppingCart + shippingCostTen}   
+else {
+    totalUsersCost = "Please insert valid number"
+    
+}
+console.log("\n--------THIS IS THE USERS TOTAL COST--------------\n")
+console.log(totalUsersCost)
