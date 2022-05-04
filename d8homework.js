@@ -37,15 +37,19 @@ let hasTheSameEmail = exercise2.email === exercise5.email
 
 //Exercise 6
 
-let totalShoppingCart = 20;
+let totalShoppingCart = 30;
 let shippingCostZero = 0;
 let shippingCostTen = 10;
 let totalUsersCost
 
 if (totalShoppingCart >= 50) { totalUsersCost = totalShoppingCart + shippingCostZero
     }
-else {
+else if (totalShoppingCart >=0 && totalShoppingCart <=50) {
     totalUsersCost = totalShoppingCart + shippingCostTen
 }    
+else {
+    totalUsersCost = "Please insert valid number"
+}
 //console.log("\n--------THIS IS THE USERS TOTAL COST-----------\n")
 //console.log(totalUsersCost)
+
