@@ -37,7 +37,7 @@ let hasTheSameEmail = exercise2.email === exercise5.email
 
 //Exercise 6
 
-let totalShoppingCart = 30;
+let totalShoppingCart = 60;
 let shippingCostZero = 0;
 let shippingCostTen = 10;
 let totalUsersCost
@@ -58,7 +58,7 @@ else {
 
 let totalShoppingCartDiscount = totalShoppingCart * 0.2 + totalShoppingCart
 //console.log(totalShoppingCartDiscount)
-let isBlackFriday = false
+let isBlackFriday = true
 
 if (totalShoppingCartDiscount >= 50 && isBlackFriday === true) { totalUsersCost = totalShoppingCartDiscount + shippingCostZero
 }
