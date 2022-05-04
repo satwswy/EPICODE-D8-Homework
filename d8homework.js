@@ -74,5 +74,31 @@ else {
     totalUsersCost = "Please insert valid number"
     
 }
-console.log("\n--------THIS IS THE USERS TOTAL COST--------------\n")
-console.log(totalUsersCost)
+//console.log("\n--------THIS IS THE USERS TOTAL COST--------------\n")
+//console.log(totalUsersCost)
+
+//Exercise 8
+
+let pc =  {
+    os: 'text',
+    ram: 'text',
+    memory: 'text'
+}
+
+let pc2 = Object.assign({}, pc)
+pc2.os = 'text2'
+
+let pc3 = Object.assign({}, pc)
+pc3.os = 'text3'
+
+let pc4 = Object.assign({}, pc)
+pc4.os = 'text4'
+
+let pc5 = Object.assign({}, pc)
+pc5.os = 'text5'
+
+//console.log(pc.os)
+//console.log(pc2.os)
+//console.log(pc3.os)
+//console.log(pc4.os)
+//console.log(pc5.os)
